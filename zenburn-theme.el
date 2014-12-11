@@ -288,6 +288,8 @@ Also bind `class' to ((class color) (min-colors 89))."
    `(diredp-read-priv ((t (:foreground ,zenburn-green-1))))
    `(diredp-symlink ((t (:foreground ,zenburn-yellow))))
    `(diredp-write-priv ((t (:foreground ,zenburn-magenta))))
+;;;;; ecb
+   `(ecb-default-highlight-face ((t (:foreground ,zenburn-red :background ,zenburn-bg-2 :weight bold))))
 ;;;;; ediff
    `(ediff-current-diff-A ((t (:foreground ,zenburn-fg :background ,zenburn-red-4))))
    `(ediff-current-diff-Ancestor ((t (:foreground ,zenburn-fg :background ,zenburn-red-4))))
